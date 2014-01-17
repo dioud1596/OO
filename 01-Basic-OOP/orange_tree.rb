@@ -2,7 +2,7 @@ class OrangeTree
   #attr_accessor :height, :age, :oranges
   # no need here => not called, we have our own fancy methods
 
-  def initialize
+  def initialize # constructor
     @height = 0
     @oranges = 0
     @age = 0
@@ -25,7 +25,7 @@ class OrangeTree
     else 
       puts "The tree produced #{@oranges} oranges."
     end
-  end
+  end 
   
   def pick_an_orange
     if @alive  && @oranges >= 1
