@@ -21,7 +21,7 @@ puts b.wheels
 puts b.seats  
 
 # our Tandem object inheriting from bicycle
-t = Tandem.new(2)  
+t = Tandem.new(4)  
 puts t.gears  
 puts t.wheels  
 puts t.seats
